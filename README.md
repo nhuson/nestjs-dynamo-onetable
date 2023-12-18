@@ -4,7 +4,7 @@
 Start by installing the required dependencies:
 
 ```bash
-  $ npm i @nhuson/nestjs-dynamo-onetable
+  $ npm i nestjs-dynamo-onetable
 ```
 
 Once the installation process is complete, we can import the OnetableModule into the root AppModule.
