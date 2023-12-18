@@ -13,7 +13,7 @@ Once the installation process is complete, we can import the OnetableModule into
 (app.module.ts)
 
 import { Module } from '@nestjs/common';
-import { OnetableModule } from '@nhuson/nestjs-dynamo-onetable';
+import { OnetableModule } from 'nestjs-dynamo-onetable';
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
 
 @Module({
@@ -81,7 +81,7 @@ export class UserModule {}
 
 ```javascript
 (UserService.ts)
-import { Model } from '@nhuson/nestjs-dynamo-onetable';
+import { Model } from 'nestjs-dynamo-onetable';
 
 @Injectable()
 export class UserService {
