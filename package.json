@@ -13,6 +13,9 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
   },
+  "repository": {
+    "url": "https://github.com/nhuson/nestjs-dynamo-onetable.git"
+  },
   "author": "Nhu Son <son.brian1994@gmail.com>",
   "license": "ISC",
   "keywords": [
